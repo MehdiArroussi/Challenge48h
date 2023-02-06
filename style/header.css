@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bb2649;
+}
+
+.left-nav {
+    position: absolute;
+    font-size: 23px;
+    width: 25%;
+    left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30%;
+}
+
+.right-nav {
+    position: absolute;
+    right: 5%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 15%;
+    width: 25%;
+}
+
+.name {
+    display: absolute;
+    justify-content: center;
+
+}
+
+.search {
+    width: 500px;
+}
+
+.accountPicture {
+    width: 30px;
+}
+
+.purchasePicture {
+    width: 30px;
+}
