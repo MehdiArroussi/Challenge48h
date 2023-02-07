@@ -45,7 +45,7 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['password
       <input type="text" name="status" placeholder="status" requiered>
       
       
-      <button type="submit" name="Signup">Valider</button>
+      <button type="submit" name="Signup">CREER</button>
   </form>
 
 
