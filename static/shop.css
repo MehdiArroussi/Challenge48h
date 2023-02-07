@@ -1,4 +1,59 @@
-.filte {
+
+
+
+
+.shop{
+    margin-left:15% ;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    /* grid-template-rows: 300px; */
+    justify-content:center;
+    align-items: end;
+    
+}
+
+.article{
+    background-color: antiquewhite;
+    border: solid;
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.article .image{
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.shop h3 {
+    margin: 0%;
+}
+
+.shop h4 {
+    margin: 0%;
+}
+
+.filtre {
+    float:left;
     height: 45%;
-    width: 48%;
+    width: 10%;
+}
+
+.entonnoir {
+    width: 10px;
+}
+
+.filtre p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+
+
 }
