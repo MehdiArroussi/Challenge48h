@@ -1,0 +1,66 @@
+
+body{
+    display: flex;
+    flex-direction:  column;
+}
+
+
+.shop{
+    margin-left:5% ;
+    display: grid;
+    grid-template-columns:repeat(4, 300px);
+    grid-template-rows: 400px; 
+    justify-content:center;
+    align-items: end;
+    
+}
+
+
+.article1,
+.article2,
+.article3,
+.article4,
+.article5,
+.article6{
+    background-color: antiquewhite;
+    border: solid;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content:space-around;
+}
+
+
+.shop h3 {
+    margin: 0%;
+}
+
+.shop h4 {
+    margin: 0%;
+}
+
+.filtre {
+    float:left;
+    height: 45%;
+    width: 10%;
+}
+
+.entonnoir {
+    width: 10px;
+}
+
+.filtre p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+

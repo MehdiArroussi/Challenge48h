@@ -85,46 +85,29 @@
         <p>information 3</p>
         </div>
     </div>
+
     <footer>
-        <div class="footerService">
-            <h3>nos produits et services</h3>
-            <ul class ="listeService">
-                <style>
-                a { color: black;}
-                </style>
-                <li> <a href="#"> test </a></li>
-            </ul>
-        </div>
-        <div class="footerCommerce">
-            <h3>Commerces</h3>
-            <ul class ="listeOffres">
-                <li> <a href="#"> les offres </a></li>
-                <li> <a href="#"> suivre ma commande</a></li>
-                <li> <a href="#"> livraisons </a></li>
-            </ul>
+        <div class="Service">
+            <h3>Services</h3>
+            <p>Retour</p>
+            <p>Assistance en ligne</p>
+            <p>Support Technique</p>
         </div>
         <div class="footerSupport">
             <h3>Support</h3>
-            <ul class ="listeSupport">
-                <li> <a href="#"> support thénique </a></li>
-                <li> <a href="#"> FAQ </a></li>
-            </ul>
+            <p>Aide achat</p>
+            <p>Nous contacter</p>
+        </div>
+        <div class="Partenaires">
+            <h3>Partenaires</h3>
+            <p>Michel et Augustain</p>
+            <
         </div>
         <div class="footerCompte">
             <h3>Compte</h3>
-            <ul class ="listeCompte">
-                <li> <a href="#"> mon compte </a></li>
-                <li> <a href="#"> mes produit </a></li>
-                <li> <a href="#"> mes comande  </a></li>
-            </ul>
         </div>
         <div class="footerPropos">
             <h3>À propos</h3>
-            <ul class ="listePropos">
-                <li> <a href="#"> information </a></li>
-                <li> <a href="#"> image de marque </a></li>
-                <li> <a href="#"> partenaire  </a></li>
-            </ul>
         </div>
     </footer>
 

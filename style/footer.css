@@ -2,31 +2,8 @@ footer{
     position: relative;
     width: 100%;
     display: flex;
-    flex-direction: row;    
-    align-items:center;
-    justify-content:space-between;
+    flex-direction: row;
+    justify-content:space-around;
     background-color: #bb2649;
-    font-size: 20px;
-}
-
-.listeOffres,
-.listeService,
-.listeSupport,
-.listeCompte,
-.listePropos{
-    list-style-type: none;
-}
-
-.footer .footerCommerce {
-    text-decoration: none;
-    font-style: bold;
-    color: #ffffff;
-}
-
-
-
-.footerServis h3,
-.footerSupport h3{
-    font-size: 25px;
-    padding-bottom: 20px;
+    
 }
