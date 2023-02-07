@@ -14,6 +14,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style/header.css">
         <link rel="stylesheet" href="style/home.css">
+        <link rel="stylesheet" href="style/footer.css">
     </head>
     <body>
         
@@ -62,4 +63,50 @@
             </div>
             <img src="rightArrow.png" class="rightArrow">
          </div>
+
+         <footer>
+    <div class="footer-service">
+      <h3>nos produits et services</h3>
+      <ul class ="liste-service">
+        <style>
+          a { color: black;}
+        </style>
+        <li> <a href="#"> test </a></li>
+      </ul>
+    </div>
+    <div class="footer-shop">
+      <h3>Commerces</h3>
+      <ul class ="liste-offres">
+        <li> <a href="#"> les offres </a></li>
+        <li> <a href="#"> suivre ma commande</a></li>
+        <li> <a href="#"> livraisons </a></li>
+      </ul>
+    </div>
+    <div class="footer-support">
+      <h3>Support</h3>
+      <ul class ="liste-support">
+        <li> <a href="#"> support thénique </a></li>
+        <li> <a href="#"> FAQ </a></li>
+      </ul>
+    </div>
+    <div class="footer-compte">
+      <h3>Compte</h3>
+      <ul class ="liste-compte">
+        <li> <a href="#"> mon compte </a></li>
+        <li> <a href="#"> mes produit </a></li>
+        <li> <a href="#"> mes comande  </a></li>
+      </ul>
+    </div>
+    <div class="footer-propos">
+      <h3>À propos</h3>
+      <ul class ="liste-propos">
+        <li> <a href="#"> information </a></li>
+        <li> <a href="#"> image de marque </a></li>
+        <li> <a href="#"> partenaire  </a></li>
+      </ul>
+    </div>
+    
+  
+  </footer>
+
 </html>

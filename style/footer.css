@@ -1,0 +1,35 @@
+footer{
+    position: relative;
+    margin-top: 10%;
+    width: auto;
+    display: flex;
+    flex-direction: row;    
+    align-items:center;
+    justify-content:space-between;
+    background-color: #bb2649;
+    font-size: 20px;
+}
+
+.liste-offres,
+.liste-service,
+.liste-support,
+.liste-compte,
+.liste-propos{
+    list-style-type: none;
+}
+
+.footer .footer-shop a{
+    text-decoration: none;
+    font-style: bold;
+    text-decoration-color: #3fab0a33;
+    color: #3fab0a33;
+}
+
+
+
+.footer-servis h3,
+.footer-support h3,
+.footer-oggres h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
