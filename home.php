@@ -46,6 +46,7 @@
             <div>
                 <img class="bestSell" src="gomme.png">
             </div>
+            <button class="voirPlus">Voir +</button>
         </div>
         <div class="nouveaute">
             <img src="leftArrow.png" class="leftArrow">
@@ -63,50 +64,68 @@
             </div>
             <img src="rightArrow.png" class="rightArrow">
          </div>
-
-         <footer>
-    <div class="footer-service">
-      <h3>nos produits et services</h3>
-      <ul class ="liste-service">
-        <style>
-          a { color: black;}
-        </style>
-        <li> <a href="#"> test </a></li>
-      </ul>
+    <div class="services">
+            <img src="leftArrow.png" class="leftArrow">
+            <div>
+                <img class="newService" src="service1.png">
+            </div>
+            <img src="rightArrow.png" class="rightArrow">
     </div>
-    <div class="footer-shop">
-      <h3>Commerces</h3>
-      <ul class ="liste-offres">
-        <li> <a href="#"> les offres </a></li>
-        <li> <a href="#"> suivre ma commande</a></li>
-        <li> <a href="#"> livraisons </a></li>
-      </ul>
+    <div class="information">
+        <div class="info1">
+        <h1>Titre 1</h1>
+        <p>information 1zbvvbjvjsvjsvv jfvnkjfhicn f,dgkjcvihucyjgbnjh</p>
+        </div>
+        <div class="info2">
+        <h1>Titre 2</h1>
+        <p>information 2</p>
+        </div>
+        <div class="info3">
+        <h1>Titre 3</h1>
+        <p>information 3</p>
+        </div>
     </div>
-    <div class="footer-support">
-      <h3>Support</h3>
-      <ul class ="liste-support">
-        <li> <a href="#"> support thénique </a></li>
-        <li> <a href="#"> FAQ </a></li>
-      </ul>
-    </div>
-    <div class="footer-compte">
-      <h3>Compte</h3>
-      <ul class ="liste-compte">
-        <li> <a href="#"> mon compte </a></li>
-        <li> <a href="#"> mes produit </a></li>
-        <li> <a href="#"> mes comande  </a></li>
-      </ul>
-    </div>
-    <div class="footer-propos">
-      <h3>À propos</h3>
-      <ul class ="liste-propos">
-        <li> <a href="#"> information </a></li>
-        <li> <a href="#"> image de marque </a></li>
-        <li> <a href="#"> partenaire  </a></li>
-      </ul>
-    </div>
-    
-  
-  </footer>
+    <footer>
+        <div class="footerService">
+            <h3>nos produits et services</h3>
+            <ul class ="listeService">
+                <style>
+                a { color: black;}
+                </style>
+                <li> <a href="#"> test </a></li>
+            </ul>
+        </div>
+        <div class="footerCommerce">
+            <h3>Commerces</h3>
+            <ul class ="listeOffres">
+                <li> <a href="#"> les offres </a></li>
+                <li> <a href="#"> suivre ma commande</a></li>
+                <li> <a href="#"> livraisons </a></li>
+            </ul>
+        </div>
+        <div class="footerSupport">
+            <h3>Support</h3>
+            <ul class ="listeSupport">
+                <li> <a href="#"> support thénique </a></li>
+                <li> <a href="#"> FAQ </a></li>
+            </ul>
+        </div>
+        <div class="footerCompte">
+            <h3>Compte</h3>
+            <ul class ="listeCompte">
+                <li> <a href="#"> mon compte </a></li>
+                <li> <a href="#"> mes produit </a></li>
+                <li> <a href="#"> mes comande  </a></li>
+            </ul>
+        </div>
+        <div class="footerPropos">
+            <h3>À propos</h3>
+            <ul class ="listePropos">
+                <li> <a href="#"> information </a></li>
+                <li> <a href="#"> image de marque </a></li>
+                <li> <a href="#"> partenaire  </a></li>
+            </ul>
+        </div>
+    </footer>
 
 </html>

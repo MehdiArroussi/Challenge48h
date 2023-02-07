@@ -36,8 +36,8 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../loginstyle/formulaire.css">
-    <link rel="stylesheet" href="../signupstyle/style.css">
+    <link rel="stylesheet" href="../style/loginstyle.css">
+    <link rel="stylesheet" href="../style/signupstyle.css">
     <title>Register Urself</title>
 </head>
 <body>
