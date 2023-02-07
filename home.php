@@ -65,5 +65,17 @@
             </div>
             <img src="rightArrow.png" class="rightArrow">
          </div>
+        
+    </head>
+
+    <body>
+       
+        <a href="./static/login.php" > Click here to Login/Signin </a>
+
+        
+    <h1> Bienvenue </h1>
+
+
+
     </body>
 </html>
