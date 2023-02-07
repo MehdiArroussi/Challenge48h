@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(108, 209, 243);
+    background-color: rgb(255, 255, 255);
   }
   
   h1 {
@@ -70,4 +70,41 @@ th:last-child{
 .tableau{
     width: 75%;
     margin-left: 150px;
+}
+.moyen-de-paiement{
+    padding-left: 1000px;
+    width: 50%;
+}
+.paiement > button{
+    margin-left: 900px ;
+    height: 50px;
+    background-color: #000000;
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+}
+
+.tab {
+    background-color: bisque;
+    width: auto;
+    height: auto;
+}
+
+.osef::before{
+    width: 100%;
+    margin-left: 105%;
+    position: relative;
+    display: block;
+    content: "";
+    height: 2px;
+    background-color: #2b2626;
+}
+.moyen-de-paiement p{
+    margin-left: 50px;
+}
+
+.trait-bas{
+    border-bottom: #000000 solid 1px;
+    width: 350px;
+    padding-bottom: 10px;
+    position: center;
 }
