@@ -4,15 +4,17 @@ session_start();
 if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['password']) && !empty($_POST['status'])) {
     try {
         $conn = dbconnect();
-        $namesign = $_POST['name'];
-        $emailsign = $_POST['email'];
-        $statussign = $_POST['status'];
+
+        $namesign = htmlspecialchars ($_POST['name']);
+        $emailsign = htmlspecialchars($_POST['email']);
         $passwordhash = password_hash($_POST['password'], PASSWORD_DEFAULT);
-        $q = $conn->prepare('INSERT INTO user (name, email, passwordhash, status) VALUES (?, ?, ?, ?)');
+        $statussign = htmlspecialchars($_POST['status']);
+        $q = $conn->prepare('INSERT INTO user (name, email, password, status) VALUES (?, ?, ?, ?)');
         $res = $q->execute([$namesign, $emailsign, $passwordhash, $statussign]);
         if ($res) {
             $conn = null;
-            header('Location : login.php');
+            header('Location : ../home.php');
+            exit();
         }        
     } catch (PDOException $e) {
         echo "Connection failed: " . $e->getMessage();
@@ -33,15 +35,16 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['password
 <body>
     
     <div class="signin-box">
-    <form action="login.php" method="post">
-        <h2>Register</h2>
-        <input type="text" name="name" placeholder="nom" required>
-        <input type="text" name="email" placeholder="email" required>
-        <input type="password" name="password" placeholder="password" required>
-        <input type="text" name="status" placeholder="Status" required>
-        
-        <button type="submit" name="submit">Valider</button>
-    </form>
+  <form action="signup.php" method="post">
+  <h2>Register</h2>
+      <input type="text" name="name" placeholder="name" requiered>
+      <input type="text" name="email" placeholder="email" required>
+      <input type="password" name="password" placeholder="password" required>
+      <input type="text" name="status" placeholder="status" requiered>
+      
+      
+      <button type="submit" name="Signup">Valider</button>
+  </form>
 
 
 </body>

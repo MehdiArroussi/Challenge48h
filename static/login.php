@@ -4,16 +4,16 @@ session_start();
 if (!empty($_POST['email']) && !empty($_POST['password'])) {
     try {
         $conn = dbconnect();
-        $emaillog = $_POST['email'];
-        $passwordlog = $_POST['password'];
-        $q = $conn->prepare('SELECT * FROM user WHERE email = ?');
+        $emaillog = htmlspecialchars($_POST['email']);
+        $passwordlog = htmlspecialchars($_POST['password']);
+        $q = $conn->prepare('SELECT * FROM `user` WHERE email = ?');
         $q->execute([$emaillog]);
         $res = $q->fetch();
         if ($res) {
             if (password_verify($passwordlog, $res['password'])) {
                 $_SESSION['identity'] = $res['name'];
                 $conn = null;
-                header('Location: ../home.php');
+                // header('Location: ./home.php');
                 exit();
             } else {
                 echo "Mot de passe incorrect";
@@ -45,7 +45,7 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
       <input type="password" name="password" placeholder="password" required>
       
       <button type="submit" name="submit">Valider</button>
-      <a href="signup.php">Pas de compte ? Inscrivez vous !</a>
+      <a href="signup.php">Pas de compte ? Inscrivez-vous! </a>
   </form>
 
 
