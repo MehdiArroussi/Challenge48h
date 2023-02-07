@@ -2,10 +2,11 @@ footer{
     position: relative;
     margin-top: 10%;
     width: auto;
+    height: 300px;
     display: flex;
     flex-direction: row;    
-    align-items:center;
-    justify-content:space-between;
+    justify-content:space-around;
+    align-items: flex-start;
     background-color: #bb2649;
     font-size: 20px;
 }
@@ -18,6 +19,17 @@ footer{
     list-style-type: none;
 }
 
+.footer-offres,
+.footer-shop,
+.footer-service,
+.footer-support,
+.footer-compte,
+.footer-propos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .footer .footer-shop a{
     text-decoration: none;
     font-style: bold;
@@ -27,9 +39,16 @@ footer{
 
 
 
-.footer-servis h3,
-.footer-support h3,
-.footer-oggres h3{
+
+
+.footer-service h3,
+.footer-support h3{
     font-size: 25px;
     padding-bottom: 20px;
+}
+
+footer p{
+    position: absolute;
+    margin-top: 17%;
+    margin-right: 85%;
 }
