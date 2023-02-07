@@ -7,8 +7,8 @@ export default class extends BaseSchema {
     this.schema.createTable(this.tableName, (table) => {
       table.increments('idCommande')
       table.date('date')
-      table.foreign('idUser').references('user.id')
-      table.foreign('idProduit').references('produit.id')
+      table.integer('idUser').unsigned().references('users.idUser').onDelete("CASCADE")
+      table.integer('idProduit').unsigned().references('produits.idProduit').onDelete("CASCADE")
       table.string('delivrer')
 
       /**

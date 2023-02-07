@@ -2,17 +2,37 @@
 
 import Database from "@ioc:Adonis/Lucid/Database";
 import Shop from "App/Models/Shop";
+import User from "App/Models/User";
+import { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
 
 export class ShopsController {
-    get(id:number) {
+    public async get(id:number) {
         return Database.from('shop').select('*').where('idShop', id)
     }
 
-    getAll() {
-        return Database.from('shop').select('*')
+    public async shops(ctx: HttpContextContract) {
+        return Shop.all()
     }
 
-    create(body:any) {
+    public async create(body:any) {
         const shop = new Shop()
+        shop.nom = body.requestBody.nom
+        await shop.save()
     }
+
+    public async remove(id:number) {
+        const shop = await Shop.findOrFail(id)
+        await shop.delete()
+    }
+
+    public async update(id:Number ,body:any) {
+        const shop = await Shop.findOrFail(id)
+        shop.nom = body.requestBody.nom
+        console.log(shop)
+        await shop.save()
+    }
+}
+
+export {
+    
 }
