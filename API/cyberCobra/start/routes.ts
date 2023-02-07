@@ -20,15 +20,24 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 import Database from '@ioc:Adonis/Lucid/Database'
-
-Route.get('/', async () => {
-  return { hello: 'world' }
-})
+import ShopsController from 'App/Controllers/Http/ShopsController'
 
 Route.get('/t', async () => {
   return { Pierric: 'COME' }
 })
 
-Route.get('/DB', async () => {
-  return Database.from('user').select('*')
+Route.get('/user/:id', async ({request}) => {
+  return Database.from('user').select('email').where('idUser', request.param('id'))
+})
+
+Route.get('/produit/:type', async ({request}) => {
+  return Database.from('produit').select('*').where('type', request.param('type'))
+})
+
+Route.get('/fullProduct', async () => {
+  return Database.from('produit').select('*')
+})
+
+Route.get('/shop/:id', async({request}) => {
+  return ShopsController.get(request.param('id'))
 })
