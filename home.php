@@ -40,18 +40,36 @@
 
 <div class="bestSells">
     <h2 class="sellsTitle">Meilleurs Ventes</h2>
-    <?php 
-    //1 : tu recupère le nombre d'élements avec un  COUNT(*)
-    //2 : tu récupere tous tes elmts avec un SELECT * FROM PRODUCTS (prepare puis execute puis fetchAll() contenu par exemple dans une variable $fetch)
-    //3 : mettre en place les elements dans une grille (display: grid) a partir de la div bestSells
-    // si besoin utilise var_dump(truc a visualiser)
-    for($i=0; i < 4; $i++){?>
-    <div class="objects">
-        <!-- (balise php )echo fetch[$i]['description'] (balise php fin) -->
-        <p><?php  echo 'banane' ?></p>
+    <div>
+        <img class="bestSell" src="gomme.png">
     </div>
-<?}?>
+    <div>
+        <img class="bestSell" src="gomme.png">
+    </div>
+    <div>
+        <img class="bestSell" src="gomme.png">
+    </div>
+    <div>
+        <img class="bestSell" src="gomme.png">
+    </div>
 </div>
+
+<div class="nouveaute">
+        <img src="leftArrow.png" class="leftArrow">
+            <div>
+                <img class="newObject" src="carte1.png">
+            </div>
+            <div>
+                <img class="newObject"  src="carte1.png">
+            </div>
+            <div>
+                <img class="newObject"  src="carte1.png">
+            </div>
+            <div>
+                <img class="newObject" src="carte1.png">
+            </div>
+        <img src="rightArrow.png" class="rightArrow">
+    </div>
 
 </body>
 </html>
