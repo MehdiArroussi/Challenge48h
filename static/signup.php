@@ -31,10 +31,9 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['password
 </head>
 <body>
     
-    <div class="login-box">
+    <div class="signin-box">
   <form action="file/*.php" method="post">
   <h2>Register</h2>
-      <input type="text" name="name" placeholder="name" required>
       <input type="text" name="email" placeholder="email" required>
       <input type="password" name="password" placeholder="password" required>
       
