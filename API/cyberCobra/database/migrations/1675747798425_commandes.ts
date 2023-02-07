@@ -5,10 +5,10 @@ export default class extends BaseSchema {
 
   public async up () {
     this.schema.createTable(this.tableName, (table) => {
-      table.increments('idCommande')
+      table.increments('id_commande')
       table.date('date')
-      table.integer('idUser').unsigned().references('users.idUser').onDelete("CASCADE")
-      table.integer('idProduit').unsigned().references('produits.idProduit').onDelete("CASCADE")
+      table.integer('id_user').unsigned().references('users.id_user').onDelete("CASCADE")
+      table.integer('id_produit').unsigned().references('produits.id_produit').onDelete("CASCADE")
       table.string('delivrer')
 
       /**

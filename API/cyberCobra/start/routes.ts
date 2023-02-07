@@ -20,16 +20,18 @@
 
 import { Request } from '@adonisjs/core/build/standalone'
 import Route from '@ioc:Adonis/Core/Route'
-import {CommandesController} from 'App/Controllers/Http/CommandesController'
-import {ProduitsController} from 'App/Controllers/Http/ProduitsController'
+import CommandesController from 'App/Controllers/Http/CommandesController'
+import ProduitsController from 'App/Controllers/Http/ProduitsController'
 import {ShopsController} from 'App/Controllers/Http/ShopsController'
-import {UsersController} from 'App/Controllers/Http/UsersController'
+import UsersController from 'App/Controllers/Http/UsersController'
 
 Route.get('/t', async () => {
   return { Pierric: 'COME' }
 })
 
-Route.get('/shop/id', 'ShopsController.get')
+Route.get('/shop/:id', async ({request}) => {
+  return new ShopsController().get(request.param('id'))
+})
 
 Route.get('shop' ,async () => {
   return new ShopsController().shops()
@@ -50,7 +52,9 @@ Route.post('/shop',async ({request}) => {
 
 // parti produit
 
-Route.get('/produit/id', 'ProduitsControlles.get')
+Route.get('/produit/:id', async ({request}) => {
+  return new ProduitsController().get(request.param('id'))
+})
 
 Route.get('produits' ,async () => {
   return new ProduitsController().produits()
@@ -72,9 +76,11 @@ Route.post('/produit',async ({request}) => {
 
 // partie route commande
 
-Route.get('/commande/id', 'CommandesController.get')
+Route.get('/commande/:id', async ({request}) => {
+  return new CommandesController().get(request.param('id'))
+})
 
-Route.get('commande' ,async (ctx) => {
+Route.get('commande' ,async () => {
   return new CommandesController().commandes()
 })
 
@@ -91,12 +97,6 @@ Route.post('/commande',async ({request}) => {
 })
 
 // parti route user
-
-Route.get('/user/id', 'UserController.get')
-
-// Route.get('user' ,async (ctx) => {
-//   return new ShopsController().shops()
-// })
 
 Route.put('/user/:id',async ({request}) => {
   return new UsersController().update(request.param('id'), request)

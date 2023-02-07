@@ -3,7 +3,7 @@ import { BaseModel, column } from '@ioc:Adonis/Lucid/Orm'
 
 export default class Produit extends BaseModel {
   @column({ isPrimary: true })
-  public idProduit: number
+  public id_produit: number
 
   @column()
   public name: string

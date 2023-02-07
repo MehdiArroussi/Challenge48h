@@ -4,8 +4,8 @@ import Produit from './Produit'
 import User from './User'
 
 export default class Shop extends BaseModel {
-  @column({ isPrimary: true ,  columnName: 'idShop' })
-  public idShop: number
+  @column({ isPrimary: true})
+  public id_shop: number
 
   @column()
   public nom: string

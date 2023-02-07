@@ -5,7 +5,7 @@ import Commande from "App/Models/Commande";
 
 export default class CommandesController {
     public async get(id:number) {
-        return Database.from('commande').select('*').where('idCommande', id)
+        return Database.from('Commandes').select('*').where('idCommande', id)
     }
 
     public async commandes() {

@@ -5,7 +5,7 @@ import User from './User'
 
 export default class Commande extends BaseModel {
   @column({ isPrimary: true })
-  public idCommande: number
+  public id_commande: number
 
   @column()
   public date: Date

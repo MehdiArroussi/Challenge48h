@@ -2,8 +2,6 @@
 
 import Database from "@ioc:Adonis/Lucid/Database";
 import Shop from "App/Models/Shop";
-import User from "App/Models/User";
-
 
 export class ShopsController {
     public async get(id:number) {
