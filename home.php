@@ -17,9 +17,6 @@
     </head>
     <body>
         
-        
-        <a href="static/login.php" > Click here to Log in/Sign in </a>
-        
         <header>
             <div class="nav">
                 <nav class="left-nav">
@@ -29,7 +26,7 @@
                 <h1 class="name">CYBER-COBRA</h1>
                 <div class="right-nav">
                     <input text class="search">
-                    <img src="Account.png" class="accountPicture">
+                    <a href="static/login.php"><img src="Account.png" class="accountPicture"></a>
                     <img src="Purchase.png" class="purchasePicture">
                 </div>
             </div>
@@ -65,17 +62,4 @@
             </div>
             <img src="rightArrow.png" class="rightArrow">
          </div>
-        
-    </head>
-
-    <body>
-       
-        <a href="./static/login.php" > Click here to Login/Signin </a>
-
-        
-    <h1> Bienvenue </h1>
-
-
-
-    </body>
 </html>
