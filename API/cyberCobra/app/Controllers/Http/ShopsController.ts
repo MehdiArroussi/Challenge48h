@@ -3,14 +3,14 @@
 import Database from "@ioc:Adonis/Lucid/Database";
 import Shop from "App/Models/Shop";
 import User from "App/Models/User";
-import { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
+
 
 export class ShopsController {
     public async get(id:number) {
         return Database.from('shop').select('*').where('idShop', id)
     }
 
-    public async shops(ctx: HttpContextContract) {
+    public async shops() {
         return Shop.all()
     }
 
@@ -33,6 +33,3 @@ export class ShopsController {
     }
 }
 
-export {
-    
-}
