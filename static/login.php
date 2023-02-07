@@ -33,7 +33,11 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../loginstyle/formulaire.css">
+    <link rel="stylesheet" href="../signupstyle/style.css">
     <title>Register Urself</title>
 </head>
 <body>
@@ -47,7 +51,7 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
       <button type="submit" name="submit">Valider</button>
       <a href="signup.php">Pas de compte ? Inscrivez-vous! </a>
   </form>
-
+</div>
 
 </body>
 </html>
