@@ -8,7 +8,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #bb2649;
+    background-color: #232323;
+    color: #ADB1B6;
 }
 
 .left-nav {

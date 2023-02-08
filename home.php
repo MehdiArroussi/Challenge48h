@@ -12,6 +12,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style/header.css">
         <link rel="stylesheet" href="style/home.css">
         <link rel="stylesheet" href="style/footer.css">
@@ -27,8 +28,10 @@
                 <h1 class="name">CYBER-COBRA</h1>
                 <div class="right-nav">
                     <input text class="search">
-                    <a href="static/login.php"><img src="Account.png" class="accountPicture"></a>
-                    <img src="Purchase.png" class="purchasePicture" href="#">
+                    <i class="fa fa-user"></i>
+                    <i class="fa fa-shopping-cart"></i>
+                    <!-- <a href="static/login.php"><img src="Account.png" class="accountPicture"></a> -->
+                    <!-- <img src="Purchase.png" class="purchasePicture" href="#"> -->
                 </div>
             </div>
         </header>
