@@ -71,6 +71,14 @@
             </div>
             <img src="rightArrow.png" class="rightArrow">
     </div>
+    <div class="partenaires">
+        <h1>Partenaires</h1>
+        <div class="imgPartenaires">
+        <img src="MichelEtAugustin.png" class="MichelAugustin">
+        <img src="BriocheDoree.png" class="Brioche">
+        <img src="LDLC.png" class="LDLC">
+        </div>
+    </div>
     <div class="information">
         <div class="info1">
         <h1>Titre 1</h1>
@@ -89,25 +97,25 @@
     <footer>
         <div class="Service">
             <h3>Services</h3>
-            <p>Retour</p>
-            <p>Assistance en ligne</p>
-            <p>Support Technique</p>
+            <a href="#"><p>Retour</p></a>
+            <a href="#"><p>Assistance en ligne</p></a>
+            <a href="#"><p>Support Technique</p></a>
         </div>
         <div class="footerSupport">
             <h3>Support</h3>
-            <p>Aide achat</p>
-            <p>Nous contacter</p>
+            <a href="#"><p>Aide achat</p></a>
+            <a href="#"><p>Nous contacter</p></a>
         </div>
         <div class="Partenaires">
             <h3>Partenaires</h3>
-            <p>Michel et Augustain</p>
-            <
-        </div>
-        <div class="footerCompte">
-            <h3>Compte</h3>
+            <a href="#"><p>Michel et Augustain</p></a>
+            <a href="#"><p>LDLC</p></a>
+            <a href="#"><p>Brioche Dorée</p></a>
         </div>
         <div class="footerPropos">
             <h3>À propos</h3>
+            <a href="#"><p>Qui somme nous ?</p></a>
+            <a id = "GFG" href="#"><p>Comment sa fonctionne ?</p></a>
         </div>
     </footer>
 
