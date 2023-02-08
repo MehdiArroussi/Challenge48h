@@ -21,10 +21,12 @@ table{
     width: 100%;
     border-collapse: collapse;
 }
+
 .cart-info{
     display: flex;
     flex-wrap: wrap;
 }
+
 th{
     text-align: left;
     padding: 5px;
@@ -32,14 +34,17 @@ th{
     background: #ff523b;
     font-weight: normal;
 }
+
 td{
     padding: 10px 5px;
 }
+
 td input{
     width: 40px;
     height: 30px;
     padding: 5px;
 }
+
 .small-container_cart-page .cart-info a{
     color: #ff523b;
     font-size: 12px;
@@ -47,36 +52,51 @@ td input{
     padding: 62px;
     padding-left: 100px;
 }
+
 td img{
     width: 80px;
     height: 80px;
     margin-right: 10px;
 }
+
 .total-price{
     display: flex;
     justify-content: flex-end;
 }
+
+.arrière > button{
+    height: 50px;
+    background-color: #ff0000;
+    border-radius: 10px;
+    color:rgb(0, 0, 0);
+}
+
 .total-price table{
     border-top: 3px solid #ff523b;
     width: 100%;
     max-width: 400px;
 }
+
 td:last-child{
     text-align: right;
 }
+
 th:last-child{
     text-align: right;
 }
+
 .tableau{
     width: 75%;
     margin-left: 150px;
 }
+
 .moyen-de-paiement{
     padding-left: 1000px;
     width: 50%;
 }
+
 .paiement > button{
-    margin-left: 900px ;
+    margin-left: 1050px ;
     height: 50px;
     background-color: #000000;
     border-radius: 10px;
@@ -98,6 +118,7 @@ th:last-child{
     height: 2px;
     background-color: #2b2626;
 }
+
 .moyen-de-paiement p{
     margin-left: 50px;
 }
