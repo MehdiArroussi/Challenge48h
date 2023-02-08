@@ -36,22 +36,22 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../loginstyle/formulaire.css">
+    <link rel="stylesheet" href="../style/loginstyle.css">
     <link rel="stylesheet" href="../signupstyle/style.css">
     <title>Register Urself</title>
 </head>
+<script type="text/javascript" src="./js/main.js"></script>
 <body>
     
     <div class="login-box">
   <form action="../home.php" method="post">
   <h2>Connexion</h2>
-      <input type="text" name="email" placeholder="email" required>
-      <input type="password" name="password" placeholder="password" required>
+      <input type="text" name="email" onkeyup="check();" placeholder="email" required>
+      <input type="password" name="password" onkeyup="check();"placeholder="password" required>
       
-      <button type="submit" name="submit">Valider</button>
-      <a href="signup.php">Pas de compte ? Inscrivez-vous! </a>
+      <button type="submit" name="submit" onClick="login();">   </button>
   </form>
 </div>
-
 </body>
+<a href="signup.php">Pas de compte ? Inscrivez-vous! </a>
 </html>

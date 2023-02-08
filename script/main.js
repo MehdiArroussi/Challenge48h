@@ -63,3 +63,11 @@ function myfunction(){
 
 }
 
+function login() {
+    document.getElementsByClassName("log")[0].style.display = "flex";
+    document.getElementsByClassName("sig")[0].style.display = "none";
+}
+function SignUp() {
+    document.getElementsByClassName("log")[0].style.display = "none";
+    document.getElementsByClassName("sig")[0].style.display = "flex";
+}

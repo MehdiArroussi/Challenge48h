@@ -39,9 +39,9 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['password
     <div class="signin-box">
   <form action="signup.php" method="post">
   <h2>Register</h2>
-      <input type="text" name="name" placeholder="name" requiered>
-      <input type="text" name="email" placeholder="email" required>
-      <input type="password" name="password" placeholder="password" required>
+      <input type="text" name="name" onkeyup="check();" placeholder="name" requiered>
+      <input type="text" name="email" onkeyup="check();" placeholder="email" required>
+      <input type="password" name="password" onkeyup="check();" placeholder="password" required>
       <select name="status" id="status-select">
     <option value="">--Select a status--</option>
     <option value="admin">Admin</option>
@@ -50,7 +50,7 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['password
 </select>
       
       
-      <button type="submit" name="Signup">CREER</button>
+      <button type="submit" name="Signup" onClick="signin();">CREER</button>
   </form>
 
 
