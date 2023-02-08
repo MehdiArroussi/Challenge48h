@@ -1,0 +1,24 @@
+footer{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: #232323;
+    color: #ADB1B6;
+}
+
+footer div h3 {
+    font-size: 27px;
+    position: relative;
+    text-decoration: underline;
+}
+
+footer div p {
+    color: #ADB1B6;
+}
+
+footer div a {
+    text-decoration: none;
+}
+

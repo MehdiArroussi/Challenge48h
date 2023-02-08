@@ -1,0 +1,193 @@
+.bestSells {
+    width: 100%;
+    display: flex;
+    height: 250px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F1F1F1;
+}
+
+.bestSells div img {
+    position: absolute;
+    width: auto;
+    height: 150px;
+}
+
+
+.description {
+    width: 65%;
+    left: 20%;
+    margin-top: 20px;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.bestSells .Article1,
+.bestSells .Article2,
+.bestSells .Article3,
+.bestSells .Article4 {
+    display: flex;
+    flex-direction:column;
+    width: 20%;
+    height: 170px;
+}
+
+
+
+.sellsTitle {
+    position: absolute;
+    display: flex;
+    left: 2%;
+    padding-bottom: 28vh;
+}
+
+.bestSell{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+}
+
+.bestSells button {
+    position: absolute;
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    border: none;
+    right: 2%;
+    font-size: 17px;
+    margin-top: 25vh;
+}
+
+.bestSells button:hover {
+    background: #F1F1F1;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #F1F1F1,
+                0 0 25px #F1F1F1,
+                0 0 50px #F1F1F1,
+                0 0 100px #F1F1F1;
+
+}
+
+.nouveaute {
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #ADB1B6;
+    gap: 6%;
+}
+
+.nouveaute .leftArrow {
+    position: absolute;
+    left: 5%;
+    width:35px;
+}
+
+.newObject  {
+    height: 231px;
+}
+
+.nouveaute .rightArrow {
+    position: absolute;
+    right: 5%;
+    width: 35px;
+}
+
+.services {
+    background-color:#F1F1F1;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 250px;
+}
+
+.services .leftArrow {
+    position: absolute;
+    left: 15%;
+    width:35px;
+}
+
+.services .newService {
+    width: 150px;
+}
+
+.services .rightArrow {
+    position: absolute;
+    right: 15%;
+    width: 35px;
+}
+
+.partenaires {
+    background-color:#F1F1F1;
+}
+
+.partenaires h1 {
+    margin: 0;
+}
+
+.MichelAugustin {
+    position: relative;
+    height: 100px;
+    width: auto;
+}
+
+.LDLC {
+    position: relative;
+    height: 100px;
+    width: auto;
+}
+
+.Brioche {
+    position: relative;
+    height: 100px;
+    width: auto;
+}
+
+.imgPartenaires {
+    display: flex;
+    justify-content: space-around;
+}
+
+.information {
+    background-color: #ADB1B6;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 600px;
+}
+
+.information div {
+    height: 100%;
+    max-width: 30%;
+    width: 30%;
+    text-align: center;
+}
+
+.information h1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.information div h2 {
+    position: relative;
+    margin-top: 30vh;
+}
+
+.information div p {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #ADB1B6;
+}
