@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<link rel="stylesheet" href="style/panier.css">
+<link rel="stylesheet" href="style/header.css">
+<link rel="stylesheet" href="style/footer.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <title>Cyber-Cobra | Panier</title>
+    </head>
+    <body>
+        <header>
+            <div class="nav">
+                <nav class="left-nav">
+                    <p>Produits</p>
+                    <p>A propos de nous</p>
+                </nav>
+                <h1 class="name">CYBER-COBRA</h1>
+                <div class="right-nav">
+                    <input text class="search">
+                    <i class="fa fa-user"></i>
+                    <i class="fa fa-shopping-cart"></i>
+                    <!-- <a href="static/login.php"><img src="Account.png" class="accountPicture"></a> -->
+                    <!-- <img src="Purchase.png" class="purchasePicture" href="#"> -->
+                </div>
+            </div>
+        </header>
+        <div class="tab">
+            <div class="tableau"> 
+            <div class="small-container_cart-page">
+                <table>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cart-info">
+                                <img src="img/red-shirt.jpg">
+                                <p>Red Printed Tshirt</p>
+                                <small>Price: 50,00€</small>
+                                </br>
+                                <a href="">Remove</a>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>50,00€</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cart-info">
+                            <img src="img/blue-shirt.png">
+                            <p>Blue Printed Tshirt</p>
+                            <small>Price: 50,00€</small>
+                            </br>
+                            <a href="">Remove</a>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>50,00€</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cart-info trait-bas">
+                            <img src="img/yellow-shirt.png">
+                            <p>Yellow Printed Tshirt</p>
+                            <small>Price: 50,00€</small>
+                            </br>
+                            <a href="">Remove</a>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>50,00€</td>
+                    </tr>
+                </table>
+                </div>
+                <div class="arrière">
+                    <button type="button" onClick="window.location.href='Shop/shop.html';">Retour aux articles ></button>
+                </div>
+                <div class="recommandations">
+                    <h4>Ces produits pourrait aussi  vous plaire:</h4>
+                    <img src="leftArrow.png">
+                    <img src="img/black-shirt.png">
+                    <img src="img/white-shirt.png">
+                    <img src="img/grey-shirt.png">
+                    <img src="rightArrow.png">
+                </div>
+                <div class="total-price"> 
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>150,00€</td>
+                    </tr>
+                    <div class="total">
+                        <tr id="Taxe">
+                            <td>Taxe</td>
+                            <td>25,00€</td>
+                        </tr>
+                        
+                    </div>
+                    <tr >
+                        <td class="osef">Total</td>
+                        <td>175,00€</td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+    <div class="paiement">
+        <button type="button" onClick="window.location.href='paiement.html';">Procéder au paiement ></button>
+        </div>
+        <div class="moyen-de-paiement">
+            <p>Moyens de paiement acceptés:</p>
+            <img src="img/moyens-de-paiement.png">
+        </div>
+        </div>
+    </body>
+    <footer>
+        <div class="Service">
+            <h3>Services</h3>
+            <a href="#"><p>Retour</p></a>
+            <a href="#"><p>Assistance en ligne</p></a>
+            <a href="#"><p>Support Technique</p></a>
+        </div>
+        <div class="footerSupport">
+            <h3>Support</h3>
+            <a href="#"><p>Aide achat</p></a>
+            <a href="#"><p>Nous contacter</p></a>
+        </div>
+        <div class="Partenaires">
+            <h3>Partenaires</h3>
+            <a href="#"><p>Michel et Augustin</p></a>
+            <a href="#"><p>LDLC</p></a>
+            <a href="#"><p>Brioche Dorée</p></a>
+        </div>
+        <div class="footerPropos">
+            <h3>À propos</h3>
+            <a href="#"><p>Qui somme nous ?</p></a>
+            <a id = "GFG" href="#"><p>Comment sa fonctionne ?</p></a>
+        </div>
+    </footer>
+</html>

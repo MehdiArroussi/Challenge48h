@@ -1,0 +1,142 @@
+body {
+    background-color: #f1f1f1
+  }
+  
+  h1 {
+    color: #ADB1B6;
+    text-align: center;
+  }
+
+.cartpage{
+    margin: 80px auto;
+}
+
+.small-container_cart-page .cart-info small{
+position: absolute;
+padding: 40px;
+padding-left: 100px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+    color: #232323 ;
+    background: #ADB1B6;
+    font-weight: normal;
+}
+
+td{
+    padding: 10px 5px;
+}
+
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+.small-container_cart-page .cart-info a{
+    color: #232323 ;
+    font-size: 12px;
+    position: absolute;
+    padding: 62px;
+    padding-left: 100px;
+}
+
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.arrière > button{
+    height: 50px;
+    background-color: #ff0000;
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+}
+
+.total-price table{
+    border-top: 3px solid #232323;
+    width: 100%;
+    max-width: 400px;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+.tableau{
+    width: 75%;
+    margin-left: 150px;
+}
+
+.moyen-de-paiement{
+    width: 25%;
+    padding: 0%;
+    margin-left: 1050px;
+}
+
+.paiement > button{
+    margin-left: 1120px ;
+    height: 50px;
+    background-color: #ff0000;
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+}
+
+.tab {
+    background-color: #f1f1f1;
+    width: auto;
+    height: auto;
+}
+
+.osef::before{
+    width: 100%;
+    margin-left: 105%;
+    position: relative;
+    display: block;
+    content: "";
+    height: 2px;
+    background-color: #2b2626;
+}
+
+.moyen-de-paiement p{
+    margin-left: 50px;
+}
+
+.trait-bas{
+    border-bottom: #000000 solid 1px;
+    width: 350px;
+    padding-bottom: 10px;
+    position: center;
+}
+.recommandations{
+    position: absolute;
+    width: 65%;
+    padding:0%;
+
+}
+.recommandations img{
+width: 13%;
+margin-left: 0%;
+}
