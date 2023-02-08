@@ -67,13 +67,13 @@
         <div class="nouveaute">
             <img src="leftArrow.png" class="leftArrow">
             <div>
-                <img class="newObject" src="carte1.png">
+                <img class="newObject" src="airMax.png">
             </div>
             <div>
-                <img class="newObject"  src="carte1.png">
+                <img class="newObject"  src="chaussette.png">
             </div>
             <div>
-                <img class="newObject"  src="carte1.png">
+                <img class="newObject"  src="peigne.png">
             </div>
             <div>
                 <img class="newObject" src="carte1.png">
@@ -96,17 +96,18 @@
         </div>
     </div>
     <div class="information">
+        <h1>News</h1>
         <div class="info1">
-        <h1>Titre 1</h1>
-        <p>information 1zbvvbjvjsvjsvv jfvnkjfhicn f,dgkjcvihucyjgbnjh</p>
+        <h2>Actu 1</h2>
+        <p></p>
         </div>
         <div class="info2">
-        <h1>Titre 2</h1>
-        <p>information 2</p>
+        <h2>Actu 2</h2>
+        <p></p>
         </div>
         <div class="info3">
-        <h1>Titre 3</h1>
-        <p>information 3</p>
+        <h2>Actu 3</h2>
+        <p></p>
         </div>
     </div>
 

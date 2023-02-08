@@ -174,9 +174,15 @@
     text-align: center;
 }
 
-.information div h1 {
+.information h1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.information div h2 {
     position: relative;
-    margin-top:0px;
+    margin-top: 30vh;
 }
 
 .information div p {
