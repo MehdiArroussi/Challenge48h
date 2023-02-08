@@ -28,23 +28,39 @@
                 <div class="right-nav">
                     <input text class="search">
                     <a href="static/login.php"><img src="Account.png" class="accountPicture"></a>
-                    <img src="Purchase.png" class="purchasePicture">
+                    <img src="Purchase.png" class="purchasePicture" href="#">
                 </div>
             </div>
         </header>
         <div class="bestSells">
             <h2 class="sellsTitle">Meilleurs Ventes</h2>
-            <div>
-                <img class="bestSell" src="gomme.png">
+            <div class="Article1">
+                <img class="bestSell" src="smallSquare.png">
+                <div class="description">
+                    <p class="name">Gateau</p>
+                    <p class="price">4€</p>
+                </div>
             </div>
-            <div>
-                <img class="bestSell" src="gomme.png">
+            <div class="Article2">
+                <img class="bestSell" src="brioche.png">
+                <div class="description">
+                    <p class="name">Brioche</p>
+                    <p class="price">2€</p>
+                </div>
             </div>
-            <div>
+            <div class="Article3">
                 <img class="bestSell" src="gomme.png">
+                <div class="description">
+                    <p class="name">Gomme</p>
+                    <p class="price">1€</p>
+                </div>
             </div>
-            <div>
-                <img class="bestSell" src="gomme.png">
+            <div class="Article4">
+                <img class="bestSell" src="maillotFoot.png">
+                <div class="description">
+                    <p class="name">Maillot</p>
+                    <p class="price">49,99€</p>
+                </div>
             </div>
             <button class="voirPlus">Voir +</button>
         </div>
@@ -115,7 +131,7 @@
         <div class="footerPropos">
             <h3>À propos</h3>
             <a href="#"><p>Qui somme nous ?</p></a>
-            <a id = "GFG" href="#"><p>Comment sa fonctionne ?</p></a>
+            <a href="#"><p>Comment sa fonctionne ?</p></a>
         </div>
     </footer>
 
