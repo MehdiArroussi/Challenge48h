@@ -12,6 +12,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style/header.css">
         <link rel="stylesheet" href="style/home.css">
         <link rel="stylesheet" href="style/footer.css">
@@ -27,37 +28,55 @@
                 <h1 class="name">CYBER-COBRA</h1>
                 <div class="right-nav">
                     <input text class="search">
-                    <a href="static/login.php"><img src="Account.png" class="accountPicture"></a>
-                    <img src="Purchase.png" class="purchasePicture">
+                    <i class="fa fa-user"></i>
+                    <i class="fa fa-shopping-cart"></i>
+                    <!-- <a href="static/login.php"><img src="Account.png" class="accountPicture"></a> -->
+                    <!-- <img src="Purchase.png" class="purchasePicture" href="#"> -->
                 </div>
             </div>
         </header>
         <div class="bestSells">
             <h2 class="sellsTitle">Meilleurs Ventes</h2>
-            <div>
-                <img class="bestSell" src="gomme.png">
+            <div class="Article1">
+                <img class="bestSell" src="smallSquare.png">
+                <div class="description">
+                    <p class="name">Gateau</p>
+                    <p class="price">4€</p>
+                </div>
             </div>
-            <div>
-                <img class="bestSell" src="gomme.png">
+            <div class="Article2">
+                <img class="bestSell" src="brioche.png">
+                <div class="description">
+                    <p class="name">Brioche</p>
+                    <p class="price">2€</p>
+                </div>
             </div>
-            <div>
+            <div class="Article3">
                 <img class="bestSell" src="gomme.png">
+                <div class="description">
+                    <p class="name">Gomme</p>
+                    <p class="price">1€</p>
+                </div>
             </div>
-            <div>
-                <img class="bestSell" src="gomme.png">
+            <div class="Article4">
+                <img class="bestSell" src="maillotFoot.png">
+                <div class="description">
+                    <p class="name">Maillot</p>
+                    <p class="price">49,99€</p>
+                </div>
             </div>
             <button class="voirPlus">Voir +</button>
         </div>
         <div class="nouveaute">
             <img src="leftArrow.png" class="leftArrow">
             <div>
-                <img class="newObject" src="carte1.png">
+                <img class="newObject" src="airMax.png">
             </div>
             <div>
-                <img class="newObject"  src="carte1.png">
+                <img class="newObject"  src="chaussette.png">
             </div>
             <div>
-                <img class="newObject"  src="carte1.png">
+                <img class="newObject"  src="peigne.png">
             </div>
             <div>
                 <img class="newObject" src="carte1.png">
@@ -80,17 +99,18 @@
         </div>
     </div>
     <div class="information">
+        <h1>News</h1>
         <div class="info1">
-        <h1>Titre 1</h1>
-        <p>information 1zbvvbjvjsvjsvv jfvnkjfhicn f,dgkjcvihucyjgbnjh</p>
+        <h2>Actu 1</h2>
+        <p></p>
         </div>
         <div class="info2">
-        <h1>Titre 2</h1>
-        <p>information 2</p>
+        <h2>Actu 2</h2>
+        <p></p>
         </div>
         <div class="info3">
-        <h1>Titre 3</h1>
-        <p>information 3</p>
+        <h2>Actu 3</h2>
+        <p></p>
         </div>
     </div>
 
@@ -115,7 +135,7 @@
         <div class="footerPropos">
             <h3>À propos</h3>
             <a href="#"><p>Qui somme nous ?</p></a>
-            <a id = "GFG" href="#"><p>Comment sa fonctionne ?</p></a>
+            <a href="#"><p>Comment sa fonctionne ?</p></a>
         </div>
     </footer>
 
