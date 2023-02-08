@@ -10,6 +10,7 @@ body {
     align-items: center;
     background-color: #232323;
     color: #ADB1B6;
+  
 }
 
 .left-nav {
@@ -32,6 +33,7 @@ body {
     align-items: center;
     gap: 15%;
     width: 25%;
+    text-decoration: none;
 }
 
 .name {

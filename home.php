@@ -28,8 +28,8 @@
                 <h1 class="name">CYBER-COBRA</h1>
                 <div class="right-nav">
                     <input text class="search">
-                    <i class="fa fa-user"></i>
-                    <i class="fa fa-shopping-cart"></i>
+                    <a href="static/login.php"><i class="fa fa-user"></i></a>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
                     <!-- <a href="static/login.php"><img src="Account.png" class="accountPicture"></a> -->
                     <!-- <img src="Purchase.png" class="purchasePicture" href="#"> -->
                 </div>
@@ -65,7 +65,7 @@
                     <p class="price">49,99€</p>
                 </div>
             </div>
-            <button class="voirPlus">Voir +</button>
+            <button class="voirPlus" type=button onClick="window.location.href='#';">Voir +</button>
         </div>
         <div class="nouveaute">
             <img src="leftArrow.png" class="leftArrow">
