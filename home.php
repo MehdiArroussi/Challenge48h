@@ -29,9 +29,7 @@
                 <div class="right-nav">
                     <input text class="search">
                     <a href="static/login.php"><i class="fa fa-user"></i></a>
-                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                    <!-- <a href="static/login.php"><img src="Account.png" class="accountPicture"></a> -->
-                    <!-- <img src="Purchase.png" class="purchasePicture" href="#"> -->
+                    <a href="panier.html"><i class="fa fa-shopping-cart"></i></a>
                 </div>
             </div>
         </header>
@@ -65,7 +63,7 @@
                     <p class="price">49,99€</p>
                 </div>
             </div>
-            <button class="voirPlus" type=button onClick="window.location.href='#';">Voir +</button>
+            <button class="voirPlus" type=button onClick="window.location.href='Shop/Page-14.html';">Voir +</button>
         </div>
         <div class="nouveaute">
             <img src="leftArrow.png" class="leftArrow">

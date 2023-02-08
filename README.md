@@ -21,3 +21,15 @@ So in this projet we use PHP<img src="logoREADME/PHP-logo.png" width="30" height
 
 **Collaborators**
 We were 6 to work, Mehdi ARROUSSI, Emeric BAROTIN, Lenny OLAX-BARGAIN, Rémi LAURENT  worked in the website and the Sql Requests. Pierric COME did create the API Lily BOURGUEREAU worked on the Network administration with Cisco Packet Tracer, Docker and Mginx.
+
+
+
+
+
+
+
+
+
+
+
+
