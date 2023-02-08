@@ -98,6 +98,37 @@
     width: 35px;
 }
 
+.partenaires {
+    background-color:rgb(172, 80, 197);
+}
+
+.partenaires h1 {
+    margin: 0;
+}
+
+.MichelAugustin {
+    position: relative;
+    height: 100px;
+    width: auto;
+}
+
+.LDLC {
+    position: relative;
+    height: 100px;
+    width: auto;
+}
+
+.Brioche {
+    position: relative;
+    height: 100px;
+    width: auto;
+}
+
+.imgPartenaires {
+    display: flex;
+    justify-content: space-around;
+}
+
 .information {
     background-color: #b73856;
     position: relative;

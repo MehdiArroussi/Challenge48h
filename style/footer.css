@@ -2,31 +2,22 @@ footer{
     position: relative;
     width: 100%;
     display: flex;
-    flex-direction: row;    
-    align-items:center;
-    justify-content:space-between;
-    background-color: #bb2649;
-    font-size: 20px;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: #bb2649;   
 }
 
-.listeOffres,
-.listeService,
-.listeSupport,
-.listeCompte,
-.listePropos{
-    list-style-type: none;
+footer div h3 {
+    font-size: 27px;
+    position: relative;
+    text-decoration: underline;
 }
 
-.footer .footerCommerce {
+footer div p {
+    color: black;
+}
+
+footer div a {
     text-decoration: none;
-    font-style: bold;
-    color: #ffffff;
 }
 
-
-
-.footerServis h3,
-.footerSupport h3{
-    font-size: 25px;
-    padding-bottom: 20px;
-}

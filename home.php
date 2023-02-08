@@ -71,6 +71,14 @@
             </div>
             <img src="rightArrow.png" class="rightArrow">
     </div>
+    <div class="partenaires">
+        <h1>Partenaires</h1>
+        <div class="imgPartenaires">
+        <img src="MichelEtAugustin.png" class="MichelAugustin">
+        <img src="BriocheDoree.png" class="Brioche">
+        <img src="LDLC.png" class="LDLC">
+        </div>
+    </div>
     <div class="information">
         <div class="info1">
         <h1>Titre 1</h1>
@@ -85,46 +93,29 @@
         <p>information 3</p>
         </div>
     </div>
+
     <footer>
-        <div class="footerService">
-            <h3>nos produits et services</h3>
-            <ul class ="listeService">
-                <style>
-                a { color: black;}
-                </style>
-                <li> <a href="#"> test </a></li>
-            </ul>
-        </div>
-        <div class="footerCommerce">
-            <h3>Commerces</h3>
-            <ul class ="listeOffres">
-                <li> <a href="#"> les offres </a></li>
-                <li> <a href="#"> suivre ma commande</a></li>
-                <li> <a href="#"> livraisons </a></li>
-            </ul>
+        <div class="Service">
+            <h3>Services</h3>
+            <a href="#"><p>Retour</p></a>
+            <a href="#"><p>Assistance en ligne</p></a>
+            <a href="#"><p>Support Technique</p></a>
         </div>
         <div class="footerSupport">
             <h3>Support</h3>
-            <ul class ="listeSupport">
-                <li> <a href="#"> support thénique </a></li>
-                <li> <a href="#"> FAQ </a></li>
-            </ul>
+            <a href="#"><p>Aide achat</p></a>
+            <a href="#"><p>Nous contacter</p></a>
         </div>
-        <div class="footerCompte">
-            <h3>Compte</h3>
-            <ul class ="listeCompte">
-                <li> <a href="#"> mon compte </a></li>
-                <li> <a href="#"> mes produit </a></li>
-                <li> <a href="#"> mes comande  </a></li>
-            </ul>
+        <div class="Partenaires">
+            <h3>Partenaires</h3>
+            <a href="#"><p>Michel et Augustain</p></a>
+            <a href="#"><p>LDLC</p></a>
+            <a href="#"><p>Brioche Dorée</p></a>
         </div>
         <div class="footerPropos">
             <h3>À propos</h3>
-            <ul class ="listePropos">
-                <li> <a href="#"> information </a></li>
-                <li> <a href="#"> image de marque </a></li>
-                <li> <a href="#"> partenaire  </a></li>
-            </ul>
+            <a href="#"><p>Qui somme nous ?</p></a>
+            <a id = "GFG" href="#"><p>Comment sa fonctionne ?</p></a>
         </div>
     </footer>
 
