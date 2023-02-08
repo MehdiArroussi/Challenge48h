@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #f1f1f1
   }
   
   h1 {
-    color: rgb(228, 120, 120);
+    color: #ADB1B6;
     text-align: center;
   }
 
@@ -30,8 +30,8 @@ table{
 th{
     text-align: left;
     padding: 5px;
-    color: #fff;
-    background: #ff523b;
+    color: #232323 ;
+    background: #ADB1B6;
     font-weight: normal;
 }
 
@@ -46,7 +46,7 @@ td input{
 }
 
 .small-container_cart-page .cart-info a{
-    color: #ff523b;
+    color: #232323 ;
     font-size: 12px;
     position: absolute;
     padding: 62px;
@@ -68,11 +68,11 @@ td img{
     height: 50px;
     background-color: #ff0000;
     border-radius: 10px;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
 }
 
 .total-price table{
-    border-top: 3px solid #ff523b;
+    border-top: 3px solid #232323;
     width: 100%;
     max-width: 400px;
 }
@@ -97,15 +97,15 @@ th:last-child{
 }
 
 .paiement > button{
-    margin-left: 1050px ;
+    margin-left: 1120px ;
     height: 50px;
-    background-color: #000000;
+    background-color: #ff0000;
     border-radius: 10px;
     color:rgb(255, 255, 255);
 }
 
 .tab {
-    background-color: bisque;
+    background-color: #f1f1f1;
     width: auto;
     height: auto;
 }
