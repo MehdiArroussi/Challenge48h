@@ -29,8 +29,8 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['password
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../signupstyle/style.css">
-    <link rel="stylesheet" href="../loginstyle/style.css">
+    <link rel="stylesheet" href="../style/loginstyle.css">
+    <link rel="stylesheet" href="../style/signupstyle.css">
     <title>Register Urself</title>
 </head>
 <script src="../script/main.js" type="text/javascript"></script>
@@ -42,7 +42,12 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['password
       <input type="text" name="name" placeholder="name" requiered>
       <input type="text" name="email" placeholder="email" required>
       <input type="password" name="password" placeholder="password" required>
-      <input type="text" name="status" placeholder="status" requiered>
+      <select name="status" id="status-select">
+    <option value="">--Select a status--</option>
+    <option value="admin">Admin</option>
+    <option value="user">User</option>
+    <option value="commercant">Commerçant</option>
+</select>
       
       
       <button type="submit" name="Signup">CREER</button>
